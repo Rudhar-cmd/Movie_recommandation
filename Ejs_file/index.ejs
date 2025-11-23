@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendations</title>
+     <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <a href="/add-movie">
+    <button class="btn">Add New Movie</button>
+    </a>
+
+    <h1>Top Rated Movies</h1>
+
+    <% for (let i = 0; i < movies.length; i++) { %>
+
+        <div class="movie-card">
+            
+    
+            <img src="<%= movies[i].poster_url %>" alt="<%= movies[i].name %> Poster">
+
+            <div>
+              
+                <h2><%= movies[i].title %></h2>
+                <p><strong>Genre:</strong> <%= movies[i].genre %></p>
+                <p><strong>Rating:</strong> ⭐ <%= movies[i].rating %></p>
+                <p><%= movies[i].description %></p>
+            </div>
+
+        </div>
+
+    <% } %>
+
+</body>
+</html>
