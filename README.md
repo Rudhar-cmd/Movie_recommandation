@@ -67,7 +67,7 @@ Database_Config:
 
 # Installation
 Installation:
-  - git clone https://github.com/your-username/movie-app.git
+  - git clone https://github.com/Rudhar-cmd/movie-recommandation.git
   - cd movie-app
   - npm install
   - Update PostgreSQL credentials in code
@@ -96,7 +96,3 @@ License:
 # Author
 Author:
   - Rudhar
-
-# Preview
-Preview:
-  - 
