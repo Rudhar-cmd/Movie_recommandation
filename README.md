@@ -6,7 +6,8 @@ UI_UX:
       and EJS templating. Users can view top-rated movies, add new movies through
       a form, and display posters, ratings, genre, and descriptions.
       Movies are sorted by rating in descending order.
-  - preview_image: <img width="1006" height="680" alt="Screenshot 2025-11-23 at 7 47 30 PM" src="https://github.com/user-attachments/assets/0954ead9-a804-4157-b0b2-67a4b200f849" />
+  - preview_image:
+  -  <img width="1006" height="680" alt="Screenshot 2025-11-23 at 7 47 30 PM" src="https://github.com/user-attachments/assets/0954ead9-a804-4157-b0b2-67a4b200f849" />
 
 # Features
 Features:
